@@ -4,7 +4,7 @@ import S3 from "aws-sdk/clients/s3.js";
 // import NodeGeocoder from "node-geocoder";
 
 // export const DATABASE = "mongodb://127.0.0.1:27017/xxx";
-export const DATABASE = "mongodb+srv://Tewodros12:tma263510@cluster0.hd3fj.mongodb.net/?retryWrites=true&w=majority"
+export const DATABASE = "mongodb+srv://Tewodros12:tma263510@cluster0.hd3fj.mongodb.net/eventManagment?retryWrites=true&w=majority"
 
 export const AWS_ACCESS_KEY_ID = "AKIAXY2RIMSJV24BKFUT";
 export const AWS_SECRET_ACCESS_KEY = "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";

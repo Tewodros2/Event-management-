@@ -1,0 +1,125 @@
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #1192DC;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .about {
+    height: 40px;
+    display: flex;
+    /* align-items: center; */
+    background-color: #234D63;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 220px;
+    /* margin-top: 18px; */
+  }
+
+  /* .logo {
+   justify-content:center
+  } */
+
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+   
+  }
+
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+ 
+ 
+  }
+  .subPro{
+    max-width: 50%;
+    margin: 0 auto;
+    /* display: flex; */
+    /* width:100%;
+    justify-content: center;
+   align-content: center; */
+  }
+ 
+  
+  .header__optionLineTwo {
+    font-size: 16px;
+    font-weight: 600;
+   font-family: Helvetica Neue, Arial, sans-serif !important;
+  }
+  .header__optionLineOne {
+    font-size: 14px;
+    font-weight: 400;
+   font-family: Helvetica Neue, Arial, sans-serif !important;
+  }
+
+  .request{
+    background-color: #EFA41C;
+    height: 40px;
+
+
+  }
+  .requestOne{
+    background-color: #EFA41C;
+    height: 40px;
+    /* //display:flex; */
+    /* align-self: center; */
+
+
+  }
+
+
+  .header__clearlink {
+    text-decoration: none;
+
+  }  
+  .productPictureOne {
+    /* margin-top: 5px; */
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+  }
+
+  .productIntro{
+    display: table;
+    margin: 0 auto;
+    padding : 15px 5px 10px 40px;
+    /* padding top, right, bottom, left  */
+    
+
+  }
+  .productLogo{
+    width: 95%;
+
+  }
+
+  .text1Body{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+.reqButton{
+  /* display: flex; */
+  margin-left: 40%;
+  margin-top: 15px;
+  /* align-items: center; */
+
+}
+  .text2Body{
+    font-size: 22px;
+    text-align: center;
+  }
+

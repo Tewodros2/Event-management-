@@ -2,12 +2,12 @@ import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
 import { DATABASE } from "./config.js";
-import salesPersonRoutes from "./routes/salespersons.js"
 
+import eventRoutes  from "./routes/eventsRoute.js";
 
 const app = express();
 
-// db
+// dbg
 mongoose.set("strictQuery", false);
 mongoose
   .connect(DATABASE)
@@ -17,7 +17,7 @@ mongoose
 // middlewares
 app.use(express.json());
 app.use(cors());
+app.use("/events", eventRoutes);
 // routes middleware
-app.use("/api/salesPerson", salesPersonRoutes);
 
-app.listen(8000, () => console.log("server_running_on_port_8000....."));
+app.listen(3001, () => console.log("server_running_on_port_8000....."));

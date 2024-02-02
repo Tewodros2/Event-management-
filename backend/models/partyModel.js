@@ -13,10 +13,10 @@ const schema = new Schema(
       ci: String,
       payment_url: String,
       party_id: String,
-      salesperson_id: { type: ObjectId, ref: "SalesPerson" },
+      // salesperson_id: { type: ObjectId, ref: "SalesPerson" },
     },
   },
   { timestamps: true }
 );
 
-export default model("Party", schema);
+export default model("Event", schema);

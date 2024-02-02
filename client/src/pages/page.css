@@ -1,0 +1,16 @@
+.requestForm{
+    /* display: flex;
+    align-items: center; */
+    background-color: #1192DC;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    width: 50%;
+}   
+
+.btnEventSubmit{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 15px;
+
+}
